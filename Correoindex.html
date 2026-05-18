@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleCorreo.css">
+    <!--<script type="text/javascript" src="https://cdn.jsdeliver.net/npm/@emailjs/browser@3/dist/email.min.js"></script>-->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form action="" id="contact_form">
+            <h2>Contacto Directo</h2>
+            <p>Envíe un comentario a nuestra compañia</p>
+ 
+            <input type="text" id="user_name" name="name" placeholder="Tu Nombre" required>
+            <input type="text" id="user_lastName" name="lastName" placeholder="Tus Apellidos" required>
+            <input type="text" id="user_email" name="email" placeholder="Tu Correo" required>
+            <input type="text" id="user_phone" name="phone" placeholder="Tu telefono" required>
+ 
+ 
+            <textarea name="message" id="message" placeholder="Escriba su comentario..." required></textarea>
+ 
+            <button type="submit" id="button">Envair Comentario</button>
+        </form>
+    </div>
+ 
+    <script src="scriptCorreo.js"></script>
+</body>
+</html>

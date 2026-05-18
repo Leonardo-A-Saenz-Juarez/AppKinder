@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section{
+    display: block;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #114ccc ;
+  color: white;
+}
+
+.fa-tumblr {
+  background: #00277a;
+  color: white;
+}
+
+body {
+    line-height: 1;
+}
+
+:root {
+  --carousel-speed: 15s;
+  --carousel-gap: 4rem;
+  --carousel-padding: 3.75rem;
+  --logo-width: 9rem;
+  --gradient-width: 15%;
+
+  @media (max-width: 768px) {
+    --carousel-padding: 2rem;
+    --carousel-gap: 2rem;
+    --logo-width: 6rem;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: lightgray;
+}
+
+.carousel {
+  position: relative;
+  background-color: white;
+  padding-block: var(--carousel-padding);
+  display: flex;
+  column-gap: var(--carousel-gap);
+  overflow-x: hidden;
+  box-shadow: 0 4px 10px rgb(0 0 0 / 15%);
+
+  .logos {
+    display: flex;
+    column-gap: var(--carousel-gap);
+    animation: scroll var(--carousel-speed) linear infinite;
+    will-change: transform;
+
+    img {
+      width: var(--logo-width);
+      object-fit: contain;
+      transition: scale 0.3s;
+
+      &:hover {
+        scale: 1.10;
+      }
+    }
+  }
+
+  &:hover .logos {
+    animation-play-state: paused;
+  }
+
+  &::after,
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: var(--gradient-width);
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  &::before {
+    left: 0;
+    background-image: linear-gradient(to right, white, transparent);
+  }
+
+  &::after {
+    right: 0;
+    background-image: linear-gradient(to left, white, transparent);
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-100% - var(--carousel-gap)));
+  }
+}

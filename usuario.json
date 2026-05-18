@@ -1,0 +1,124 @@
+{
+  "ususario": [
+    {
+      "id": 1,
+      "nombre": "Carlos Ramírez",
+      "telefono": "6561234567",
+      "correo": "carlos.ramirez@gmail.com",
+      "cuenta": "carlosr",
+      "contraseña": "Pass1234"
+    },
+    {
+      "id": 2,
+      "nombre": "María López",
+      "telefono": "6562345678",
+      "correo": "maria.lopez@gmail.com",
+      "cuenta": "marial",
+      "contraseña": "Clave5678"
+    },
+    {
+      "id": 3,
+      "nombre": "José Hernández",
+      "telefono": "6563456789",
+      "correo": "jose.hernandez@gmail.com",
+      "cuenta": "joseh",
+      "contraseña": "Segura123"
+    },
+    {
+      "id": 4,
+      "nombre": "Ana Martínez",
+      "telefono": "6564567890",
+      "correo": "ana.martinez@gmail.com",
+      "cuenta": "anam",
+      "contraseña": "AnaPass456"
+    },
+    {
+      "id": 5,
+      "nombre": "Luis García",
+      "telefono": "6565678901",
+      "correo": "luis.garcia@gmail.com",
+      "cuenta": "luisg",
+      "contraseña": "Luis7890"
+    },
+    {
+      "id": 6,
+      "nombre": "Sofía Torres",
+      "telefono": "6566789012",
+      "correo": "sofia.torres@gmail.com",
+      "cuenta": "sofiat",
+      "contraseña": "Sofia123"
+    },
+    {
+      "id": 7,
+      "nombre": "Diego Sánchez",
+      "telefono": "6567890123",
+      "correo": "diego.sanchez@gmail.com",
+      "cuenta": "diegos",
+      "contraseña": "Diego456"
+    },
+    {
+      "id": 8,
+      "nombre": "Elena Cruz",
+      "telefono": "6568901234",
+      "correo": "elena.cruz@gmail.com",
+      "cuenta": "elenac",
+      "contraseña": "Elena789"
+    },
+    {
+      "id": 9,
+      "nombre": "Jorge Morales",
+      "telefono": "6569012345",
+      "correo": "jorge.morales@gmail.com",
+      "cuenta": "jorgem",
+      "contraseña": "Jorge321"
+    },
+    {
+      "id": 10,
+      "nombre": "Lucía Herrera",
+      "telefono": "6560123456",
+      "correo": "lucia.herrera@gmail.com",
+      "cuenta": "luciah",
+      "contraseña": "Lucia654"
+    },
+    {
+      "id": 11,
+      "nombre": "Pedro Castillo",
+      "telefono": "6561122334",
+      "correo": "pedro.castillo@gmail.com",
+      "cuenta": "pedroc",
+      "contraseña": "Pedro987"
+    },
+    {
+      "id": 12,
+      "nombre": "Valeria Ríos",
+      "telefono": "6562233445",
+      "correo": "valeria.rios@gmail.com",
+      "cuenta": "valeriar",
+      "contraseña": "Vale1234"
+    },
+    {
+      "id": 13,
+      "nombre": "Fernando Vega",
+      "telefono": "6563344556",
+      "correo": "fernando.vega@gmail.com",
+      "cuenta": "fernandov",
+      "contraseña": "Fer5678"
+    },
+    {
+      "id": 14,
+      "nombre": "Gabriela Navarro",
+      "telefono": "6564455667",
+      "correo": "gabriela.navarro@gmail.com",
+      "cuenta": "gabyn",
+      "contraseña": "Gaby9012"
+    },
+    {
+      "id": 15,
+      "nombre": "Ricardo Flores",
+      "telefono": "6565566778",
+      "correo": "ricardo.flores@gmail.com",
+      "cuenta": "ricardof",
+      "contraseña": "Rico3456"
+    }
+  ]
+}
